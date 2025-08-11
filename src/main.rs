@@ -40,7 +40,7 @@ fn main() {
 		}
 	};
 
-	if sections == 0 {
+	if sections < 1 {
 		eprintln!("Number of sections must be a positive integer.");
 		return;
 	}
